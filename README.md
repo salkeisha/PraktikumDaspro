@@ -1,3 +1,2 @@
-Halo semuanya, akhirnya bikin repo baru
-
 ini fitur 1
+ini fitur 2
