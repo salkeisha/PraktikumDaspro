@@ -4,5 +4,6 @@
 #### Kelas : TI-1C 
 #### NIM   : 254107020048 
 
-![Akun GitHub](image.png)
+### 1. Akun GitHub
+![Akun GitHub](PraktikumDaspro/JOBSHEET4/akungithub.png)
 
