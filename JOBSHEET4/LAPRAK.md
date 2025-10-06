@@ -6,7 +6,7 @@
 
 ## 2.1 Percobaan 1: Menggunakan Github
 Setelah mengikuti langkah-langkah pada jobsheet 4 maka akan menghasilkan akun GitHub beserta repository seperti berikut :
-![Akun GitHub](PraktikumDaspro/JOBSHEET4/akungithub.png)
+![Akun GitHub](PraktikumDaspro/images/akungithub.png)
 
 ### Pertanyaan
 1. Cek apakah file Test.txt ada di Github. Jika tidak, mengapa?
@@ -21,7 +21,7 @@ Setelah mengikuti langkah-langkah pada jobsheet 4 maka akan menghasilkan akun Gi
 
 ## 2.2 Percobaan 2 : Dasar Kolaborasi di Github
 Saya melakukan kolaborasi di GitHub dengan teman saya dan menghasilkan sebuah kode program seperti berikut :
-![Kode Program Kolaborasi](PraktikumDaspro/JOBSHEET4/KolaborasiKodeProgram.png)
+![Kode Program Kolaborasi](PraktikumDaspro/images/KolaborasiKodeProgram.png)
 
 Saya menambahkan kode program :
 > System.out.println("Hai, ini baris kode pertama");
@@ -30,10 +30,10 @@ Lalu teman saya menambahkan kode program :
 > System.out.println("Halo kei, aku ayla");
 
 Setelah mencoba berkolaborasi dengan kode program, saya dan teman saya mencoba jika terjadi merge conflict, dimana saat kita secara tidak sengana mengisi kode di baris yang sama saat pull kode program :
-![Merge Conflict 1](PraktikumDaspro/JOBSHEET4/MergeConflict1.png)
+![Merge Conflict 1](PraktikumDaspro/images/MergeConflict1.png)
 > Yang berwarna hijau adalah kode program yang ada sebelum melakukan pull request, sementara yang berwarna biru adalah kode program yang berada di GitHub saat kita sudah melakukan pull request.
 
-![Merge Conflict 2](PraktikumDaspro/JOBSHEET4/MergeConflict2.png)
+![Merge Conflict 2](PraktikumDaspro/images/MergeConflict2.png)
 > Saat ***Resolve Merge Editor*** dilakukan maka akan muncul kedua kode program dimana kita dapat memilih antara 
 >> <p> Accept Incoming | Accept Combination (Incoming First) | Ignore <br>
 > atau </p>
