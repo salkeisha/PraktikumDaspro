@@ -23,10 +23,10 @@ Setelah mengikuti langkah-langkah pada jobsheet 4 maka akan menghasilkan akun Gi
 Saya melakukan kolaborasi di GitHub dengan teman saya dan menghasilkan sebuah kode program seperti berikut :
 ![Kode Program Kolaborasi](PraktikumDaspro/JOBSHEET4/KolaborasiKodeProgram.png)
 
-Saya menambahkan kode program
+Saya menambahkan kode program :
 > System.out.println("Hai, ini baris kode pertama");
 
-Lalu teman saya menambahkan kode program 
+Lalu teman saya menambahkan kode program :
 > System.out.println("Halo kei, aku ayla");
 
 Setelah mencoba berkolaborasi dengan kode program, saya dan teman saya mencoba jika terjadi merge conflict, dimana saat kita secara tidak sengana mengisi kode di baris yang sama saat pull kode program :
