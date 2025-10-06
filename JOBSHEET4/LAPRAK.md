@@ -19,7 +19,7 @@ Setelah mengikuti langkah-langkah pada jobsheet 4 maka akan menghasilkan akun Gi
 - **Commit** : Commit berfungsi untuk menyimpan secara permanen perubahan yang telah diibuat pada kode program.
 - **Push** : Push digunakan sebagai mengirimkan semua perubahan yang telah disimpan sebelumnya (dengan commit) di file lokal ke file/repository yang ada di akun GitHub. 
 
-### 2.2 Percobaan 2 : Dasar Kolaborasi di Github
+## 2.2 Percobaan 2 : Dasar Kolaborasi di Github
 Saya melakukan kolaborasi di GitHub dengan teman saya dan menghasilkan sebuah kode program seperti berikut :
 ![Kode Program Kolaborasi](PraktikumDaspro/JOBSHEET4/KolaborasiKodeProgram.png)
 
@@ -35,7 +35,7 @@ Setelah mencoba berkolaborasi dengan kode program, saya dan teman saya mencoba j
 
 ![Merge Conflict 2](PraktikumDaspro/JOBSHEET4/MergeConflict2.png)
 > Saat ***Resolve Merge Editor*** dilakukan maka akan muncul kedua kode program dimana kita dapat memilih antara 
->> Accept Incoming | Accept Combination (Incoming First) | Ignore
-> atau
->> Accept Current | Accept Combination (Current First) | Ignore 
-> Pilihan dapat disesuaikan dengan kode program yang dibutuhkan saat digabungkan.
+>> <p> Accept Incoming | Accept Combination (Incoming First) | Ignore <br>
+> atau </p>
+>> <p> Accept Current | Accept Combination (Current First) | Ignore <br>
+> Pilihan dapat disesuaikan dengan kode program yang dibutuhkan saat digabungkan. </p>
