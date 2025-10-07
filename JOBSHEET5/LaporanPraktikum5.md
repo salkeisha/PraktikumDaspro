@@ -16,6 +16,8 @@ program tersebut dengan menambahkan struktur ELSE!
 1. Karena dengan tipe data boolean saja sudah cukup untuk membuktikan bahwa data yang akan digunakan bisa bernilai true atau false. Sehingga tidak memerlukan menggunakan operasi relasi.
 2. Maka program akan berhenti pada saat kita menginput jumlah KRS, karena tidak terdapat struktur *else* yang dapat digunakan untuk memberi informasi pada saat nilainya bernilai false.
 3. Berikut merupakan kode program pada saat menambahkan struktur *ELSE*
+   <img width="1483" height="998" alt="Screenshot 2025-10-07 140953" src="https://github.com/user-attachments/assets/099ad9c6-c54f-46ac-ab03-079f07b8b1a3" />
+
 
 ## 2.2. Percobaan 2: SWITCH-CASE untuk Mencetak KRS
 
