@@ -6,12 +6,14 @@
 
 ## SOAL 1
 Sistem perpustakaan kampus memberikan izin masuk dengan dua syarat:
-• Jika mahasiswa membawa kartu mahasiswa, atau sudah melakukan registrasi
+- Jika mahasiswa membawa kartu mahasiswa, atau sudah melakukan registrasi
 online, maka boleh masuk.
-• Jika tidak memenuhi salah satu dari dua syarat tersebut, maka ditolak masuk.
+- Jika tidak memenuhi salah satu dari dua syarat tersebut, maka ditolak masuk.
 Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
 
 ### **Flowchart**
+![sistemPerpustakaan (2)](https://github.com/user-attachments/assets/57b80a44-31f3-4e7a-9008-5679b706afb8)
+
 
 ### **Pseudocode**
 ```
@@ -21,7 +23,7 @@ DECLARE boolean inputKartu, inputRegistrasi
 INPUT inputKartu
 INPUT inputRegistrasi
 
-IF (inputKartu==true OR inputRegistrasi==true) THEN
+IF inputKartu==true OR inputRegistrasi==true THEN
 	OUTPUT "Selamat anda dapat memasuki perpustakaan"
 ELSE 
 	OUTPUT "Mohon maaf anda belum memenuhi syarat untuk memasuki perpustakaan"
@@ -33,15 +35,17 @@ END
 ## SOAL  2
 Di kampus tersedia layanan WiFi gratis yang hanya bisa diakses oleh civitas
 akademika. Sistem hotspot kampus akan melakukan pengecekan sebagai berikut:
-• Jika jenis pengguna adalah dosen, maka tampilkan “Akses WiFi diberikan (dosen)”.
-• Jika jenis pengguna adalah mahasiswa, maka sistem akan memeriksa jumlah SKS
+- Jika jenis pengguna adalah dosen, maka tampilkan “Akses WiFi diberikan (dosen)”.
+- Jika jenis pengguna adalah mahasiswa, maka sistem akan memeriksa jumlah SKS
 yang diambil:
-o Jika SKS ≥ 12, maka tampilkan “Akses WiFi diberikan (mahasiswa aktif)”.
-o Jika SKS < 12, maka tampilkan “Akses ditolak, SKS kurang dari 12”.
-• Jika bukan mahasiswa maupun dosen, maka tampilkan “Akses ditolak”.
+- Jika SKS ≥ 12, maka tampilkan “Akses WiFi diberikan (mahasiswa aktif)”.
+- Jika SKS < 12, maka tampilkan “Akses ditolak, SKS kurang dari 12”.
+- Jika bukan mahasiswa maupun dosen, maka tampilkan “Akses ditolak”.
 Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
 
 ### **Flowchart**
+![aksesWiFiKampus (2)](https://github.com/user-attachments/assets/cf60e636-1921-4f17-9803-7e28dcf2ffb1)
+
 
 ### **Pseudocode**
 ```
@@ -51,10 +55,10 @@ DECLARE int sks
 
 INPUT pengguna
 
-IF (pengguna.equalsIgnoreCase("Dosen"))
+IF pengguna == "Dosen" THEN
 	OUTPUT "Selamat Akses WiFi diberikan (dosen)"
-ELSE IF (pengguna.equalsIgnoreCase("Mahasiswa"))
-	OUTPUT "Masukkan jumlah SKS yang diambil : "
+ELSE IF pengguna == "Mahasiswa" THEN
+	OUTPUT "Masukkan jumlah SKS yang diambil :"
 	INPUT sks
 
 	IF sks >= 12
