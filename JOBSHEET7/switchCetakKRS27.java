@@ -37,5 +37,6 @@ public class switchCetakKRS27 {
             default:
                 System.out.println("Semester tidak valid");
         }
+        sc.close();
     }
 }
