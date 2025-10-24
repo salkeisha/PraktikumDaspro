@@ -13,7 +13,7 @@ public class tugas2 {
         System.out.print("Input : ");*/
     // Tetapi jika input berada disini maka yang mengulang hanya input durasi saja dana akan terjadi logic error.
 
-        //jika input jenis diletakkan didalam struktu do 
+        //jika input jenis diletakkan didalam struktur do 
         do {
         System.out.println("--- Masukkan Jenis Kendaraan ---");
         System.out.println("1. Mobil   2. Motor   0.Keluar");
