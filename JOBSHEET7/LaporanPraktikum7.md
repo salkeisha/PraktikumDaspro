@@ -74,7 +74,8 @@ Output yang dihasilkan  : <br>
 
 ## TUGAS 
 1. Kode program terdapat pada file bernama tugas1.java, output yang dihasilkan adalah sebagi berikut :
-<img width="750" height="138" alt="Screenshot 2025-10-24 161127" src="https://github.com/user-attachments/assets/915ae409-58af-4f98-bba1-f062b1f72e1c" />
+<img width="559" height="140" alt="Screenshot 2025-10-24 224036" src="https://github.com/user-attachments/assets/5a4ea4a4-7d96-4b46-9fac-6d9885d54a57" />
+
 
 2. Kode program terdapat pada file bernama tugas2.java, output yang dihasilkan adalah sebagi berikut :
 <img width="742" height="247" alt="Screenshot 2025-10-24 161238" src="https://github.com/user-attachments/assets/625321b3-15ed-48c6-bb60-4e40c4d04a40" />
