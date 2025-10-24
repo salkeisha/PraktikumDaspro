@@ -28,7 +28,8 @@ if (nilai < terendah) {
 - ***{ }***      : statements/blok eksekusi, sebagai perintah yang akan dijalankan selama perulangan berlangsung.
 2. Variabel teringgi diinisialisasi sebagi 0 karena diasumsikan tidak ada nilai yang lebih kecil dari 0, sehingga jika menginput nilai yang diatas 0, inisialisasi 0 tadi akan teganti menjadi nilai yang diinput. Begitu juga dengan inisialisasi nilai terendah yaitu 100, karena tidak ada nilai yang ada diatas 100, sehinga nilai yang diinput akan langsung mengganti ke nilai yang ada dibawah 100. Jika inisialisasi terbalik, maka dapat menyebabkan tertinggi tetap pada angka 100 dan terendah tetap pada angka 0. Karena nilai yang diinput lebih kecil/besar daripada inisialisasi yang diberikan.
 3. Fungsi dari kode tersebut adalah untuk menetapkan nilai terendah dan tertinggi dari semua inputan nilai. Alur kerja dari kode program tersebut adalah dengan memastikan kondisi variabel nilai, jika variabel nilai lebih besar dari variabel tertinggi maka akan mengganti nilai variabel tertinggi. Begitu juga dengan variabel terendah, jika variabel nilai lebih kecil dibanding variabel terendah maka akan otomatis mengganti nilai dari variabel terendah. 
-4. Setelah dimodoifikasi :
+4. Setelah dimodifikasi :
+<img width="897" height="706" alt="Screenshot 2025-10-24 142744" src="https://github.com/user-attachments/assets/dc016184-4402-4f17-9bf7-8b3715ddbbc1" />
 
 ## 2.2 Percobaan 2: Studi Kasus Nilai Mahasiswa di SIAKAD – Perulangan WHILE
 
@@ -39,8 +40,8 @@ if (nilai < terendah) {
     System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
     continue; }
 ```
-a. nilai < 0 || nilai > 100
-b. continue
+a. nilai < 0 || nilai > 100 <br>
+b. continue <br>
 2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
 3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE akan berjalan?
 4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A, program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
@@ -48,11 +49,14 @@ b. continue
 ### **Jawaban**
 1. a. Sintaks tersebut menggunakan operasi logika or (atau) sehingga jika nilai bernilai kurang dari 0 **atau** nilai lebih dari 100, program akan mengeksekusi statements didalamnya.
 b. Sintaks continue berarti program akan melewatkan (skip) struktur program selanjutnya dan melanjutkan perulangan kembali pada kondisi tertentu.
-2. Sintaks i++ dituliskan diakhir agar seluruh isi perulangan dijalanka terlebih dahulu sebelum akhirnya nilai i bertambah (untuk melakukan perulangan). Jika sintaks i++ diletakkan diawal maka dapat menyebabkan nilai awal terlewatkan karena nilai i sudah ditambah terlebih dahulu sebelum program menjalankan isi perulangan.
-3. Perulangan while yang akan terjadi adalah sebanyak 19 kali karena kondisi kode program diatas adalah i < jml, maka jika jumlah mahasiswa sebanyak 19 perulangan akan terjadi sebanyak 19 kali (denan adanya sintaks increament yang menambah i selama perulangan berlangsung), pada saat perulangan ke 19, while tidak akan berlanjut karena nilainya tidak dibawah jumlah mahasiswa.
+2. Sintaks i++ dituliskan diakhir agar seluruh isi perulangan dijalanka terlebih dahulu sebelum akhirnya nilai i bertambah (untuk melakukan perulangan). Jika sintaks i++ diletakkan diawal maka dapat menyebabkan nilai awal terlewatkan karena nilai i sudah ditambah terlebih dahulu sebelum program menjalankan isi perulangan. <br>
+3. Perulangan while yang akan terjadi adalah sebanyak 19 kali karena kondisi kode program diatas adalah i < jml, maka jika jumlah mahasiswa sebanyak 19 perulangan akan terjadi sebanyak 19 kali (denan adanya sintaks increament yang menambah i selama perulangan berlangsung), pada saat perulangan ke 19, while tidak akan berlanjut karena nilainya tidak dibawah jumlah mahasiswa. <br>
 4. Setelah dimodifikasi :
+<img width="547" height="280" alt="Screenshot 2025-10-24 145549" src="https://github.com/user-attachments/assets/a3bfec1a-1751-4f08-a477-e9c812ec8199" />
 
-Output yang dihasilkan  :
+Output yang dihasilkan  : <br>
+<img width="532" height="89" alt="Screenshot 2025-10-24 145540" src="https://github.com/user-attachments/assets/2c0c2681-5049-4f1b-8a2e-95f8f45c803e" />
+
 
 ## 2.3 Percobaan 3: Studi Kasus Transaksi di Kafe – Perulangan DO-WHILE
 
@@ -70,5 +74,8 @@ Output yang dihasilkan  :
 
 ## TUGAS 
 1. Kode program terdapat pada file bernama tugas1.java, output yang dihasilkan adalah sebagi berikut :
+<img width="750" height="138" alt="Screenshot 2025-10-24 161127" src="https://github.com/user-attachments/assets/915ae409-58af-4f98-bba1-f062b1f72e1c" />
 
 2. Kode program terdapat pada file bernama tugas2.java, output yang dihasilkan adalah sebagi berikut :
+<img width="742" height="247" alt="Screenshot 2025-10-24 161238" src="https://github.com/user-attachments/assets/625321b3-15ed-48c6-bb60-4e40c4d04a40" />
+
