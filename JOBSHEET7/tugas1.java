@@ -27,7 +27,7 @@ public class tugas1 {
             } else if (totalTiket >= 10) {
                 totalHargaTiket = hargaTiket*totalTiket*diskon2;
             } 
-            System.out.println("Total harga tiket pengunjung ke-" + i + "adalah sebesar : Rp" + totalHargaTiket);
+            System.out.println("Total harga tiket pengunjung ke-" + i + " adalah sebesar : Rp" + totalHargaTiket);
 
             //hitung jumlah harga sehari dan jumlah tiket yang terjual
             totalHargaSehari = totalHargaSehari + totalHargaTiket;
