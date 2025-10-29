@@ -87,7 +87,11 @@ Variabel tertinggi diinisialisasi dengan 0, sehingga jika rataNilai lebih dari 0
 
 ## TUGAS 
 1. Kode program terdapat pada file bernama Tugas1.java, output yang dihasilkan adalah sebagi berikut :
+   <img width="996" height="148" alt="Screenshot 2025-10-29 121142" src="https://github.com/user-attachments/assets/edb90ed8-75be-4cc3-b9fa-df8e6020be3b" />
 
-2. Kode program terdapat pada file bernama Tugas2.java, output yang dihasilkan adalah sebagi berikut :
+2. Kode program terdapat pada file bernama Tugas2.java, output yang dihasilkan adalah sebagi berikut : <br>
+   <img width="827" height="299" alt="Screenshot 2025-10-29 121214" src="https://github.com/user-attachments/assets/74ed9eb9-dfab-4d8f-a588-f8279051b959" />
 
-3. Kode program terdapat pada file bernama Tugas3.java, output yang dihasilkan adalah sebagi berikut :
+
+3. Kode program terdapat pada file bernama Tugas3.java, output yang dihasilkan adalah sebagi berikut : <br>
+   <img width="632" height="437" alt="Screenshot 2025-10-29 121254" src="https://github.com/user-attachments/assets/18ca0554-d789-49f5-b150-ce3abe77dc54" />
