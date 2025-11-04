@@ -19,7 +19,7 @@ public class SearchNilai27 {
         System.out.print("Masukkan nilai yang ingin dicari : ");
         key = sc.nextInt();
 
-        for (int i = 0; i < arrNilai.length; i++) {
+        for (int i = 0; i < arrNilai.length;) {
             if (key == arrNilai[i]) {
                 hasil = i;
                 System.out.println("Nilai " + key + " ketemu di indeks ke-" + hasil);
