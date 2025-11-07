@@ -6,7 +6,7 @@ public class Tugas2 {
         Scanner sc = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
 
-        System.out.print("Masukkan jumlah makanan/minuman yang ingi dipesan : ");
+        System.out.print("Masukkan jumlah makanan/minuman yang ingin dipesan : ");
         int jmlPesanan = sc. nextInt();
 
         String[] menu = new String[jmlPesanan];
