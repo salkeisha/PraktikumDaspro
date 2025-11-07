@@ -10,25 +10,30 @@ public class SearchNilai27 {
 
         int[] arrNilai = new int[jumlahNilai];
         int key = 0;
-        int hasil = 0;
+        int hasil = -1;
 
         for (int i = 0; i < arrNilai.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i+1) + ": ");
             arrNilai[i] = sc.nextInt();
+            System.out.println(arrNilai[i]);
+        
         }
         System.out.print("Masukkan nilai yang ingin dicari : ");
         key = sc.nextInt();
 
-        for (int i = 0; i < arrNilai.length;) {
-            if (key == arrNilai[i]) {
+        for (int i = 0; i < arrNilai.length; i++) {
+            if (key == arrNilai[i]) { 
                 hasil = i;
-                System.out.println("Nilai " + key + " ketemu di indeks ke-" + hasil);
-                break;
-            } else {
-                System.out.println("Nilai tidak ditemukan");
-                break;
+                break; 
             }
         }
+        
+        if (hasil != -1) {
+            System.out.println("Nilai " + key + " ketemu di indeks ke-" + hasil);
+        } else {
+            System.out.println("Nilai yang dicari tidak ditemukan");
+        }
+        System.out.println();
         sc.close();
     }
     
