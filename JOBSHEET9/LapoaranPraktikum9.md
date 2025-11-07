@@ -97,7 +97,10 @@ Tipe data variabel juga diberi inisialisasi = 0;.
 
 ## TUGAS
 1. Kode program terdapat di folder yang sama dengan nama file ***Tugas1.java***. Output yang dihasilkan dari kode program ini adalah : 
+<img width="744" height="214" alt="Screenshot 2025-11-07 145535" src="https://github.com/user-attachments/assets/012909d2-fd87-49a7-b111-91e5751adfb7" />
 
-2. Kode program terdapat di folder yang sama dengan nama file ***Tugas2.java***. Output yang dihasilkan dari kode program ini adalah :
+2. Kode program terdapat di folder yang sama dengan nama file ***Tugas2.java***. Output yang dihasilkan dari kode program ini adalah : <br>
+<img width="673" height="150" alt="Screenshot 2025-11-07 145812" src="https://github.com/user-attachments/assets/ac3d5e89-49ae-4045-b17f-3954bb8ee653" /> <br>
 
-3. Kode program terdapat di folder yang sama dengan nama file ***Tugas3.java***. Output yang dihasilkan dari kode program ini adalah :
+3. Kode program terdapat di folder yang sama dengan nama file ***Tugas3.java***. Output yang dihasilkan dari kode program ini adalah : <br>
+<img width="530" height="120" alt="Screenshot 2025-11-07 145845" src="https://github.com/user-attachments/assets/77fe98a5-4a6b-41ac-b5b2-5419923193be" /> <br>
