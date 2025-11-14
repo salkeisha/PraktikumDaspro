@@ -87,5 +87,6 @@ public class BisokopWithScanner27 {
             break;
         }
         }
+        sc.close();
     }
 }
