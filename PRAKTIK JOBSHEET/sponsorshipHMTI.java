@@ -34,5 +34,6 @@ public class sponsorshipHMTI {
         biayaSponshorship=(1-totalDana)*totalBiaya;
 
         System.out.println("Biaya sponsorship yang diperlukan adalah sebesar : Rp."+biayaSponshorship);
+        sc.close();
     }
 }
