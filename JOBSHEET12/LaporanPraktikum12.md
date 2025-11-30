@@ -227,6 +227,13 @@ Hal tersebut terjadi sesuai dengan penjelasan di nomor satu hanya saja variabel 
     - Fungsi sebaiknya tidak memerlukan return value jika memang kita tidak berekspektasi mendapatkan sesuatu setelah memanggil fungsi tersebut. 
 
 ## TUGAS 
-1. **Terdapat pada file *Tugas1.java* di folder yang sama.**
-2. **Terdapat pada file *Tugas2.java* di folder yang sama.**
-3. **Terdapat pada file *Tugas3.java* di folder yang sama.**
+1. **Terdapat pada file *Kubus27.java* di folder yang sama.** <br>
+   <img width="263" height="45" alt="Screenshot 2025-11-30 183902" src="https://github.com/user-attachments/assets/62b84b3f-eaf5-44c0-a84a-cc2cc5b59d4c" />
+
+2. **Terdapat pada file *NilaiMahasiswa27.java* di folder yang sama.** <br>
+   <img width="553" height="113" alt="Screenshot 2025-11-30 203900" src="https://github.com/user-attachments/assets/ef9e799d-87c4-4dc1-afb6-4adb9def449a" />
+
+3. **Terdapat pada file *RekapPenjualanCafe27.java* di folder yang sama.** <br>
+   <img width="888" height="850" alt="Screenshot 2025-11-30 204814" src="https://github.com/user-attachments/assets/a5637611-007e-4be0-bf34-c1547f604ba2" />
+
+        
