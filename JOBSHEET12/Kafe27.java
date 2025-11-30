@@ -69,6 +69,7 @@ public class Kafe27 {
 
 
         Menu (namaPelanggan, isMember, kodePromo);
+        // Menu ("Budi", isMember, "DISKON30");
 
         //Percobaan 2.3
         double totalSemua = 0;
