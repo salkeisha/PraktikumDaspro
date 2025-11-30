@@ -3,6 +3,7 @@ public class RekapPenjualanCafe27 {
 
     //Fungsi untuk memasukkan rekap data penjualan
     public static void inputData(int[][] rekapData, Scanner sc) {
+        System.out.println("============= INPUT REKAP DATA =============");
         for (int i = 0; i < rekapData.length; i++) {
             for (int j = 0; j < rekapData[0].length; j++) {
                 System.out.print("Masukkan rekap penjualan " + namaMenu(i) + " hari ke-" + (j+1) + " : ");
@@ -13,6 +14,7 @@ public class RekapPenjualanCafe27 {
 
     //Fungsi untuk menampilan rekap data yang telah diinput
     public static void tampilRekap(int[][] rekapData) {
+        System.out.println("\n============= HASIL REKAP DATA ==============");
         for (int i = 0; i < rekapData.length; i++) {
             for (int j = 0; j < rekapData[0].length; j++) {
                 System.out.print(rekapData[i][j]);
@@ -24,6 +26,7 @@ public class RekapPenjualanCafe27 {
 
     //Fungsi untuk menghitung penjualan tertinggi
     public static void penjualanTertinggi (int[][] rekapData) {
+        System.out.println("\n============= MENU DENGAN PENJUALAN TERTINGGI =============");
         int[] totalPenjualanPerMenu = new int[rekapData.length];
 
         //Menghitung total penjualan per menu
@@ -68,6 +71,7 @@ public class RekapPenjualanCafe27 {
 
     //Fungsi untuk menghitung nilai rata per menu
     public static void rataTotalPenjualanPerMenu (int[][] rekapData) {
+        System.out.println("\n============= RATA-RATA PER MENU  =============");
         int[] totalPenjualanPerMenu = new int[rekapData.length];
 
         int rataPerMenu = 0;
@@ -89,10 +93,7 @@ public class RekapPenjualanCafe27 {
 
         int[][] rekapData = new int[5][7];
 
-        System.out.println("============= INPUT REKAP DATA =============");
         inputData(rekapData, sc);
-
-        System.out.println("\n============= HASIL REKAP DATA ==============");
         tampilRekap(rekapData);
         penjualanTertinggi(rekapData);
         rataTotalPenjualanPerMenu(rekapData);
