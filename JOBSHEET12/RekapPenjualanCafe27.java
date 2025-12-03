@@ -2,11 +2,11 @@ import java.util.Scanner;
 public class RekapPenjualanCafe27 {
 
     //Fungsi untuk memasukkan rekap data penjualan
-    public static void inputData(int[][] rekapData, Scanner sc) {
+    public static void inputData(int[][] rekapData, Scanner sc, String[] namaMenu) {
         System.out.println("============= INPUT REKAP DATA =============");
         for (int i = 0; i < rekapData.length; i++) {
-            for (int j = 0; j < rekapData[0].length; j++) {
-                System.out.print("Masukkan rekap penjualan " + namaMenu(i) + " hari ke-" + (j+1) + " : ");
+            for (int j = 0; j < rekapData[i].length; j++) {
+                System.out.print("Masukkan rekap penjualan " + namaMenu[i] + " hari ke-" + (j+1) + " : ");
                 rekapData[i][j] = sc.nextInt();
             }
         }
@@ -25,7 +25,7 @@ public class RekapPenjualanCafe27 {
     }
 
     //Fungsi untuk menghitung penjualan tertinggi
-    public static void penjualanTertinggi (int[][] rekapData) {
+    public static void penjualanTertinggi (int[][] rekapData, String[] namaMenu) {
         System.out.println("\n============= MENU DENGAN PENJUALAN TERTINGGI =============");
         int[] totalPenjualanPerMenu = new int[rekapData.length];
 
@@ -48,29 +48,29 @@ public class RekapPenjualanCafe27 {
             }
         }
         System.out.println("Total penjualan tertinggi sebesar : " + tertinggi + " penjualan");
-        System.out.println("Menu dengan penjualan tertinggi adalah : " + namaMenu(menuTertinggi));
+        System.out.println("Menu dengan penjualan tertinggi adalah : " + namaMenu[menuTertinggi]);
 
     }
 
     //Fungsi untuk mengkonversi angka ke nama menu
-    public static String namaMenu (int menu) {
-        String hasil = null;
-        if (menu == 0) {
-            hasil = "Kopi";
-        } else if (menu == 1) {
-            hasil = "Teh";
-        } else if (menu == 2) {
-            hasil = "Es Kelapa Muda";
-        }else if (menu == 3) {
-            hasil = "Roti Bakar";
-        } else {
-            hasil = "Gorengan";
-        }
-        return hasil;
-    }
+    // public static String namaMenu (int menu) {
+    //     String hasil = null;
+    //     if (menu == 0) {
+    //         hasil = "Kopi";
+    //     } else if (menu == 1) {
+    //         hasil = "Teh";
+    //     } else if (menu == 2) {
+    //         hasil = "Es Kelapa Muda";
+    //     }else if (menu == 3) {
+    //         hasil = "Roti Bakar";
+    //     } else {
+    //         hasil = "Gorengan";
+    //     }
+    //     return hasil;
+    // }
 
     //Fungsi untuk menghitung nilai rata per menu
-    public static void rataTotalPenjualanPerMenu (int[][] rekapData) {
+    public static void rataTotalPenjualanPerMenu (int[][] rekapData, String[] namaMenu) {
         System.out.println("\n============= RATA-RATA PER MENU  =============");
         int[] totalPenjualanPerMenu = new int[rekapData.length];
 
@@ -83,19 +83,35 @@ public class RekapPenjualanCafe27 {
             totalPenjualanPerMenu[i] = totalPerMenu;
             rataPerMenu = totalPenjualanPerMenu[i] / 7;
 
-            System.out.println("Rata-rata " + namaMenu(i) + " yang terjual selama seminggu adalah : " + rataPerMenu + " " + namaMenu(i));
+            System.out.println("Rata-rata " + namaMenu[i] + " yang terjual selama seminggu adalah : " + rataPerMenu + " " + namaMenu[i]);
         }
     }
 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
 
-        int[][] rekapData = new int[5][7];
+        //Modifikasi memasukkan input dinamis hari dan jumlah menu
+        System.out.print("Masukkan jumlah menu yang ingin direkap : ");
+        int jmlMenu = sc.nextInt();
+        System.out.print("Masukkan jumlah hari yang ingin direkap : ");
+        int jmlHari = sc.nextInt();
 
-        inputData(rekapData, sc);
+        // int[][] rekapData = new int[5][7];
+        int[][] rekapData = new int[jmlMenu][jmlHari];
+
+        String[] namaMenu = new String [jmlMenu];
+
+        for (int i = 0; i < jmlMenu; i++) {
+            System.out.print("Masukkan nama menu yang ingin direkap : ");
+            namaMenu[i] = sc2.nextLine(); 
+        }
+
+
+        inputData(rekapData, sc, namaMenu);
         tampilRekap(rekapData);
-        penjualanTertinggi(rekapData);
-        rataTotalPenjualanPerMenu(rekapData);
+        penjualanTertinggi(rekapData, namaMenu);
+        rataTotalPenjualanPerMenu(rekapData, namaMenu);
     }
 }
