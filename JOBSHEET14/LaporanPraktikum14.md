@@ -99,4 +99,4 @@
     ```
 
 ## TUGAS
-1. 
+1. **Terdapat pada file *Tugas1.java* di folder yang sama.**
