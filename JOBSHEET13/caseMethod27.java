@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class caseMethod27 {
 
+    static Scanner sc = new Scanner(System.in);
+
     //Inisialisasi jumlah pendaftar dengan 0 karena akan bertambah setiap input yang dilakukan. Merupakan variabel global agar bisa digunakan di fungsi manapun
     static int jumlahPendaftar = 0;
 
@@ -34,11 +36,12 @@ public class caseMethod27 {
             System.out.print("Semester Pengambilan Magang (6 atau 7): ");
             String semesterMagang = sc.nextLine();
                 if (semesterMagang.equals("6") || semesterMagang.equals("7")) {
+                    rekapDataMhs[jumlahPendaftar][4] = semesterMagang;
                     break;
                 } else {
                     System.out.println("Semester yang dapat mendaftar hanya Semester 6 dan 7!");
+                    continue;
                 }
-            rekapDataMhs[jumlahPendaftar][4] = semesterMagang;
         }
 
         //Validasi input Status
@@ -46,15 +49,16 @@ public class caseMethod27 {
             System.out.print("Status Magang (Diterima/Menunggu/Ditolak): ");
             String statusMagang = sc.nextLine();
                 if (statusMagang.equalsIgnoreCase("Diterima") || statusMagang.equalsIgnoreCase("Menunggu") || statusMagang.equalsIgnoreCase("Ditolak")) {
+                    rekapDataMhs[jumlahPendaftar][5] = statusMagang;
                     break;
                 } else {
+                    System.out.println("Masukkan status yang valid!");
+                    continue;
                 }
-            rekapDataMhs[jumlahPendaftar][5] = statusMagang;
         }
 
         //Jumlah pendaftar increament yang berarti input mahasiswa bertambah satu
         jumlahPendaftar++;
-        sc.close();
     }
 
     //Fungsi 2 juga menggunakan void karena tidak mengembalikan data apapun
@@ -89,7 +93,6 @@ public class caseMethod27 {
                 nomorUrut++;
             }
         }
-        sc.close();
 
     }
 
@@ -102,6 +105,8 @@ public class caseMethod27 {
 
         for (int i = 0; i < jumlahPendaftar; i++) {
             //Menggunakan kolom 5 karena di fungsi 1, input status berada di kolom 5
+            if (rekapDataMhs[i][5] == null) continue;
+
             if (rekapDataMhs[i][5].equalsIgnoreCase("Diterima")) {
                 jmlDiterima++;
             } else if (rekapDataMhs[i][5].equalsIgnoreCase("Menunggu")) {
@@ -111,13 +116,17 @@ public class caseMethod27 {
             }
         }
 
-        System.out.println("Diterima : " + jmlDiterima);
-        System.out.println("Menunggu : " + jmlMenunggu);
-        System.out.println("Ditolak  : " + jmlDitolak);
+        if (jmlDiterima == 0 && jmlMenunggu == 0 && jmlDitolak == 0) {
+            System.out.println("Belum ada pendaftar.");
+        } else {
+            System.out.println("Diterima : " + jmlDiterima);
+            System.out.println("Menunggu : " + jmlMenunggu);
+            System.out.println("Ditolak  : " + jmlDitolak);
+            
+        }
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
         //Perulangan menu
         while (true) {
@@ -154,7 +163,6 @@ public class caseMethod27 {
         }
 
         }
-        sc.close();
         
     }
     
