@@ -99,4 +99,6 @@
     ```
 
 ## TUGAS
-1. **Terdapat pada file *Tugas1.java* di folder yang sama.**
+1. **Terdapat pada file *Tugas1.java* di folder yang sama.** <br>
+<img width="950" height="306" alt="Screenshot 2025-12-03 221538" src="https://github.com/user-attachments/assets/c50308fd-9f00-4b2e-9140-733b35cae112" />
+
